@@ -31,8 +31,20 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
-
+```
+queue = []
+queue.append('a')
+queue.append('b')
+queue.append('c')
+print("Queue after elements are inserted:")
+print(queue)
+print("Deleting the first element inserted:")
+print(queue.pop(0))
+print("Queue after the first elements is deleted:")
+print(queue)
+```
 ## Output
+<img width="941" height="241" alt="image" src="https://github.com/user-attachments/assets/5b243105-eb80-401b-b07e-5a115eac129b" />
 
 ## Result
+Thus, the python program to insert, display and delete the elements in the queue using linked list has been executed successfully.
